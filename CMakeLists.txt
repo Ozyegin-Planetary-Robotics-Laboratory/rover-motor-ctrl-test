@@ -3,6 +3,6 @@ project(rover-motor-ctrl-test)
 
 
 catkin_install_python(PROGRAMS
-  src/main.py
+  scripts/main.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
